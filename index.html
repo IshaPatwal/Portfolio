@@ -44,16 +44,36 @@
 }
 
 
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
+.skill-mf .skill-group {
+  margin-bottom: 1rem;
 }
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
+.skill-mf .skill-group-title {
+  color: #ffbd39;
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+
+.skill-mf .skill-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}
+
+.skill-mf .skill-list li {
+  font-size: 14px;
+}
+
+.skill-mf .skill-list li::marker {
+  color: #ffbd39;
+}
+
+.experience-row > .col-md-6 {
+  display: flex;
+}
+
+.experience-row .resume-wrap {
+  flex: 1;
 }
 
 
@@ -187,7 +207,7 @@
 
 						<br>
 						<br>
-			            <h2>A Business Data Analyst</h2>
+			            <h2>A Business Analyst</h2>
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 						<!-- <br> -->
 			            <!-- <p><a href="https://github.com/rishabhnmishra" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p> -->
@@ -219,43 +239,40 @@
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Isha Patwal</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Data Analyst</span></p>
-										<p><span class="title-s">Experience: </span> <span>2 Years 6 Months</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Business Analyst</span></p>
+										<p><span class="title-s">Experience: </span> <span>3 Years 3 Months</span></p>
 										<p><span class="title-s">Address: </span> <span>Noida, India</span></p>
 									  </div>
 									</div>
 								  </div>
 
 								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
+									<p class="title-s">Core Skills</p>
+									<div class="skill-group">
+										<p class="skill-group-title">Business Analysis</p>
+										<ul class="skill-list">
+											<li>Requirements &amp; Functional Analysis</li>
+											<li>Process &amp; Gap Analysis</li>
+											<li>User Stories &amp; Acceptance Criteria</li>
+											<li>Stakeholder Coordination</li>
+											<li>KPI Analysis</li>
+										</ul>
 									</div>
-									
-									<span>Python</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
+									<div class="skill-group">
+										<p class="skill-group-title">Agile &amp; Delivery</p>
+										<ul class="skill-list">
+											<li>Jira &amp; Confluence</li>
+											<li>Requirement &amp; Defect Tracking</li>
+											<li>UAT, Functional &amp; Regression Testing</li>
+										</ul>
 									</div>
-									
-									<span>Advanced Excel</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Power BI</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Data Visualization</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
+									<div class="skill-group">
+										<p class="skill-group-title">Data &amp; Reporting</p>
+										<ul class="skill-list">
+											<li>Advanced Excel, Pivot Tables &amp; Lookups</li>
+											<li>Data Cleaning &amp; Trend Analysis</li>
+											<li>Power BI, KPI Dashboards &amp; Basic DAX</li>
+										</ul>
 									</div>
 								</div>
 							</div>
@@ -269,10 +286,9 @@
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
 								
-								<p>Business/Data Analyst with over 3 years of experience in data analysis. Skilled in SQL, Advanced Excel, Power BI &amp; Python. I create dashboards, reports and documentation that support better business decisions.  
-									I hold a Bachelor’s degree in Engineering and am currently pursuing an MBA to strengthen my understanding of business and management. I look forward to taking on broader responsibilities in analytics and management, where I can apply both technical and leadership skills to deliver results.</p>
+								<p>Business Analyst with over 3 years of experience supporting project delivery through requirements gathering, functional and process analysis, and stakeholder coordination. Skilled in translating business needs into user stories and acceptance criteria, coordinating UAT, and tracking requirements and defects. I use KPI analysis, Advanced Excel, and Power BI to create clear reporting that supports informed decisions. I hold a Bachelor’s degree in Engineering and am currently pursuing an MBA to deepen my understanding of business and management.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
+									<li class="d-flex"><span>Profile:</span> <span>Business Analysis</span></li>
 									<!-- <li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li> -->
 									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
 									<li class="d-flex"><span>Language:</span> <span>English, Hindi &amp; French(Basic)</span></li>
@@ -319,15 +335,15 @@
 		</div>
 		<br>
 		
-		<div class="row">
+		<div class="row experience-row">
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">2023-Present</span>
-						<h2>Data Analyst</h2>
+						<h2>Business Analyst</h2>
 						<span class="position">Cognizant</span>
-						<p class="mt-4">CTS is a global IT services and consulting firm driving business modernization through technology and analytics. 
+						<p class="mt-4">Supported PMO and project delivery activities by coordinating requirements, documentation, project tracking, and stakeholder updates.
 							<ul>
-								<li>Supported PMO activities including project tracking, documentation, and status reporting.</li>
+								<li>Maintained project plans, requirements documentation, and status reports to support on-time delivery.</li>
 								<li>Streamlined reporting processes, saving ~20% effort and improving efficiency.</li>
 								<!-- <li>Assisted in process improvement initiatives, contributing to efficiency gains and better resource utilization.</li> -->
 							</ul>
@@ -339,14 +355,15 @@
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<!-- <span class="date">2018-2021</span>
-						<h2>Senior Data Analyst</h2>
+						<h2>Senior Business Analyst</h2>
 						<span class="position">iQuanti</span>
 						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands.  -->
 							<ul>
-								<li>Coordinated with cross‑functional teams to ensure timely delivery of milestones and foster collaboration across departments.</li>
-								<li>Designed and automated dashboards/reports, reducing manual reporting time by 30% and improving visibility into project performance.</li>
-								<li>Partnered with stakeholders to gather requirements, translate them into insights, and improve clarity, reducing rework by 15%.</li>
-								<li>Presented analytical findings and project updates to management, strengthening communication and decision‑making alignment.</li>
+								<li>Coordinated with cross-functional teams to clarify requirements, manage dependencies, and ensure timely delivery of project milestones.</li>
+								<li>Improved project reporting, reducing manual reporting time by 30% and increasing visibility into progress and performance.</li>
+								<li>Partnered with stakeholders to gather and document requirements, improving clarity and reducing rework by 15%.</li>
+								<li>Presented project updates and insights to management to support informed decisions and alignment.</li>
+								<li>Supported UAT by validating outcomes against acceptance criteria and documenting follow-up items.</li>
 							</ul>
 						</p>
 					</div>
@@ -367,7 +384,7 @@
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
     					<span class="date">2025-2027</span>
-    					<h2>Business Analytics</h2>
+    					<h2>MBA in Business Analytics</h2>
     					<span class="position">Amity University</span>
     					<!-- <p class="mt-4">Grade: First class distinction.</p> -->
 						<p class="mt-4">(Pursuing)</p>
@@ -532,8 +549,8 @@
           </div>
         </div>
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+        <div class="row d-flex contact-info mb-5 justify-content-center">
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-map-signs"></span>
@@ -551,7 +568,7 @@
 	            <p><a href="tel://0101010101">+91 </a></p>
 	          </div>
           </div> -->
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-paper-plane"></span>
@@ -560,7 +577,7 @@
 	            <p><a href="mailto:info@yoursite.com">isha.patwal2468@gmail.com</a></p>
 	          </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <!-- <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-globe"></span>
@@ -568,7 +585,7 @@
           		<h3 class="mb-4">Download Resume</h3>
 	            <p><a href="#">resumelink</a></p>
 	          </div>
-          </div>
+          </div> -->
 
 		  <!-- <div class="container">
 			<br>
